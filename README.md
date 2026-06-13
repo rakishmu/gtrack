@@ -1,10 +1,8 @@
-========================================================
 GTRACK
 Smart Agriculture Equipment Tracking Platform
-=========================================================
 
 OVERVIEW
----------------------------------------------------------
+
 
 GTRACK adalah platform monitoring dan pengawasan Alat dan
 Mesin Pertanian (Alsintan) yang dikembangkan untuk
@@ -15,9 +13,7 @@ Pertanian Provinsi/Kabupaten, Brigade Alsintan, dan
 Kelompok Tani melakukan pemantauan lokasi, utilisasi,
 produktivitas, dan keamanan aset secara real-time.
 
-=========================================================
 OBJECTIVES
-=========================================================
 
 - Monitoring lokasi Alsintan secara real-time
 - Mencegah kehilangan dan penyalahgunaan aset
@@ -28,9 +24,8 @@ OBJECTIVES
 - Mempermudah audit dan pelaporan aset
 
 
-=========================================================
 SUPPORTED ASSETS
-=========================================================
+
 
 1. Traktor Roda 2
    - Hand Tractor
@@ -57,9 +52,8 @@ SUPPORTED ASSETS
    - Mobile Dryer
    - Transport Vehicle
 
-=========================================================
+
 FEATURES
-=========================================================
 
 REAL-TIME TRACKING
 
@@ -112,9 +106,7 @@ REPORTING
 - Maintenance Report
 - Operator Performance Report
 
-=========================================================
 USER ROLES
-=========================================================
 
 1. NATIONAL ADMIN
    Kementerian Pertanian
@@ -143,9 +135,7 @@ USER ROLES
    - Service Management
    - Maintenance Monitoring
 
-=========================================================
 DASHBOARD MODULES
-=========================================================
 
 EXECUTIVE DASHBOARD
 
@@ -175,9 +165,7 @@ MAINTENANCE DASHBOARD
 - Maintenance Schedule
 - Spare Part Tracking
 
-=========================================================
 SECURITY
-=========================================================
 
 - JWT Authentication
 - Role Based Access Control (RBAC)
