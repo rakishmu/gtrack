@@ -1,51 +1,187 @@
-# [Traccar](https://www.traccar.org)
+========================================================
+GTRACK
+Smart Agriculture Equipment Tracking Platform
+=========================================================
 
-## Overview
+OVERVIEW
+---------------------------------------------------------
 
-Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 200 GPS protocols and more than 2000 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
+GTRACK adalah platform monitoring dan pengawasan Alat dan
+Mesin Pertanian (Alsintan) yang dikembangkan untuk
+mendukung digitalisasi pengelolaan aset pertanian nasional.
 
-Other parts of Traccar solution include:
+Platform ini memungkinkan Kementerian Pertanian, Dinas
+Pertanian Provinsi/Kabupaten, Brigade Alsintan, dan
+Kelompok Tani melakukan pemantauan lokasi, utilisasi,
+produktivitas, dan keamanan aset secara real-time.
 
-- [Traccar web app](https://github.com/traccar/traccar-web)
-- [Traccar Manager app](https://github.com/traccar/traccar-manager)
+=========================================================
+OBJECTIVES
+=========================================================
 
-There is also a set of mobile apps that you can use for tracking mobile devices:
+- Monitoring lokasi Alsintan secara real-time
+- Mencegah kehilangan dan penyalahgunaan aset
+- Mengukur utilisasi alat pertanian
+- Mendukung program Optimalisasi Lahan
+- Mendukung program Cetak Sawah Nasional
+- Menyediakan dashboard nasional
+- Mempermudah audit dan pelaporan aset
 
-- [Traccar Client app](https://github.com/traccar/traccar-client)
 
-## Features
+=========================================================
+SUPPORTED ASSETS
+=========================================================
 
-Some of the available features include:
+1. Traktor Roda 2
+   - Hand Tractor
+   - Cultivator
 
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
+2. Traktor Roda 4
+   - Standard Tractor
+   - Large Tractor
 
-## Build
+3. Alat Tanam
+   - Rice Transplanter
+   - Seeder
 
-Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
+4. Alat Panen
+   - Combine Harvester
+   - Corn Harvester
 
-## Team
+5. Drone Pertanian
+   - Spraying Drone
+   - Mapping Drone
 
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
-- Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
+6. Peralatan Pendukung
+   - Water Pump
+   - Mobile Dryer
+   - Transport Vehicle
 
-## License
+=========================================================
+FEATURES
+=========================================================
 
-    Apache License, Version 2.0
+REAL-TIME TRACKING
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+- GPS Position Monitoring
+- Live Location
+- Speed Monitoring
+- Direction Monitoring
+- Last Activity Monitoring
 
-        http://www.apache.org/licenses/LICENSE-2.0
+GEOFENCING
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+- Provinsi
+- Kabupaten
+- Kecamatan
+- Desa
+- Area Operasional
+
+Alert akan dikirim jika alat keluar dari area yang
+ditentukan.
+
+UTILIZATION MONITORING
+
+- Working Hours
+- Engine Hours
+- Idle Time
+- Active Time
+
+PRODUCTIVITY ANALYTICS
+
+- Luas Lahan Dikerjakan
+- Area Coverage
+- Produktivitas Alat
+- Efisiensi Penggunaan
+
+ALERT & NOTIFICATION
+
+- Device Offline
+- Power Disconnect
+- Geofence Violation
+- Unauthorized Movement
+- Low Battery
+- Excessive Idle
+
+REPORTING
+
+- Daily Report
+- Weekly Report
+- Monthly Report
+- Asset Utilization Report
+- Maintenance Report
+- Operator Performance Report
+
+=========================================================
+USER ROLES
+=========================================================
+
+1. NATIONAL ADMIN
+   Kementerian Pertanian
+
+   - Monitoring Nasional
+   - Dashboard Nasional
+   - Rekap Seluruh Indonesia
+
+2. PROVINCIAL ADMIN
+
+   - Monitoring Provinsi
+   - Monitoring Kabupaten
+
+3. DISTRICT ADMIN
+
+   - Monitoring Kabupaten
+   - Monitoring Kelompok Tani
+
+4. OPERATOR
+
+   - Monitoring Alat
+   - Input Aktivitas
+
+5. MAINTENANCE TEAM
+
+   - Service Management
+   - Maintenance Monitoring
+
+=========================================================
+DASHBOARD MODULES
+=========================================================
+
+EXECUTIVE DASHBOARD
+
+- Total Alsintan Nasional
+- Online Devices
+- Offline Devices
+- Asset Utilization
+- Province Summary
+- National Map View
+
+FLEET DASHBOARD
+
+- Live Tracking
+- Asset Status
+- Route History
+- Playback
+
+UTILIZATION DASHBOARD
+
+- Working Hours
+- Engine Hours
+- Productivity Index
+
+MAINTENANCE DASHBOARD
+
+- Service Reminder
+- Maintenance Schedule
+- Spare Part Tracking
+
+=========================================================
+SECURITY
+=========================================================
+
+- JWT Authentication
+- Role Based Access Control (RBAC)
+- HTTPS/TLS Encryption
+- Audit Trail
+- Device Authentication
+- API Security Token
